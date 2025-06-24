@@ -3,7 +3,8 @@ import { assets, cities } from "../assets/assets";
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("/src/assets/heroImage.png")] bg-no-repeat bg-cover bg-center h-screen'>
+    <div className='flex relative flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("/src/assets/heroImage.jpg")] bg-no-repeat bg-cover bg-center h-screen -z-2'>
+      <div className="absolute -z-1 bg-black/50 w-screen h-screen top-0 left-0"></div>
       <p className="bg-[#000]/50 px-3.5 py-1 rounded-full mt-20">
         The Ultimate Hotel Experience
       </p>
@@ -15,7 +16,7 @@ const Hero = () => {
         hotels and resorts. Start your journey today.
       </p>
 
-      <form className="bg-white/30 backdrop-blur-xl text-white rounded-lg px-6 py-4  flex flex-col mt-6 md:flex-row max-md:items-start gap-4 max-md:mx-auto">
+      <form className="bg-white backdrop-blur-xl text-black rounded-lg px-6 py-4  flex flex-col mt-6 md:flex-row max-md:items-start gap-4 max-md:mx-auto">
         <div>
           <div className="flex items-center gap-2">
             <img src={assets.calenderIcon} alt="calender" className="h-4" />

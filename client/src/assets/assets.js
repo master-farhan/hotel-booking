@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import searchIcon from "./searchIcon.svg";
 import userIcon from "./userIcon.svg";
 import calenderIcon from "./calenderIcon.svg";
@@ -179,7 +179,7 @@ export const userDummyData = {
   username: "Great Stack",
   email: "user.greatstack@gmail.com",
   image:
-    "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
+    "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yeXM4TnA1N3FKZHd6TU9BbTRLZ3JkS0ZCeWMifQ?width=80",
   role: "hotelOwner",
   createdAt: "2025-03-25T09:29:16.367Z",
   updatedAt: "2025-04-10T06:34:48.719Z",
